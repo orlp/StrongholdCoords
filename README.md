@@ -1,4 +1,4 @@
-#StrongholdCoords
+# StrongholdCoords
 
 An application for finding out the exact coordinates of end
 portal frames in Minecraft seeds.
