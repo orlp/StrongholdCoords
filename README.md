@@ -11,3 +11,7 @@ number of strongholds will be 3 - the inner ring of strongholds.
 The output is on stdout, one line per per portal frame, in the format
 
     <seed>,<portal_x>,<portal_z>
+    
+    
+Is only possible due to the hard work of KaptainWutax who implemented
+the stronghold generation code: https://github.com/KaptainWutax/FeatureUtils.
