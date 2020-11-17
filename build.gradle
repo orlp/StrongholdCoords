@@ -12,10 +12,10 @@ repositories {
 }
 
 dependencies {
-    implementation('com.github.KaptainWutax:MathUtils:6c2d50eacad0241ff76119e6e703b70bac4b4bce') {transitive = false}
-    implementation('com.github.KaptainWutax:SeedUtils:4d1715417dd6957e42ee1b1a5c43cf22e10c6df3') {transitive = false}
-    implementation('com.github.KaptainWutax:BiomeUtils:a3c332cc1bd7a1d7ea245d35c393a17c77eab175') {transitive = false}
-    implementation('com.github.KaptainWutax:FeatureUtils:20252b3e97443175e1de33d44cc602b151fb70f4') {transitive = false}
+    implementation('com.github.KaptainWutax:MathUtils:b4d89b26f2e8681031f066ecd1448662dbc2d5ba') {transitive = false}
+    implementation('com.github.KaptainWutax:SeedUtils:8e310c079346fa55077fd1786b50dae0d2025336') {transitive = false}
+    implementation('com.github.KaptainWutax:BiomeUtils:02fbb5bd9304b70ba482a52f0fc57ad0689fb98f') {transitive = false}
+    implementation('com.github.KaptainWutax:FeatureUtils:0bd98a8dd892ff8d7292bcf5545f79a91a5eecca') {transitive = false}
 }
 
 application {
