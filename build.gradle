@@ -1,0 +1,30 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+
+    maven {url "https://jitpack.io"}
+}
+
+dependencies {
+    implementation('com.github.KaptainWutax:MathUtils:6c2d50eacad0241ff76119e6e703b70bac4b4bce') {transitive = false}
+    implementation('com.github.KaptainWutax:SeedUtils:4d1715417dd6957e42ee1b1a5c43cf22e10c6df3') {transitive = false}
+    implementation('com.github.KaptainWutax:BiomeUtils:a3c332cc1bd7a1d7ea245d35c393a17c77eab175') {transitive = false}
+    implementation('com.github.KaptainWutax:FeatureUtils:20252b3e97443175e1de33d44cc602b151fb70f4') {transitive = false}
+}
+
+application {
+    mainClassName = 'StrongholdCoords'
+}
+
+jar {
+    archivesBaseName  = 'StrongholdCoords'
+    manifest {
+        attributes 'Main-Class': 'StrongholdCoords'
+    }
+}
