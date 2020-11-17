@@ -15,3 +15,8 @@ The output is on stdout, one line per per portal frame, in the format
     
 Is only possible due to the hard work of KaptainWutax who implemented
 the stronghold generation code: https://github.com/KaptainWutax/FeatureUtils.
+
+---
+
+To build simply run `gradlew build` and the application should be
+in `build/distributions/StrongholdCoords.zip`.
